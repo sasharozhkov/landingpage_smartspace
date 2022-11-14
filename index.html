@@ -17,14 +17,27 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
 
 <body>
     <div class="wrapper">
+
         <header class="header">
             <div class="header__container">
-                <a href="#" class="header__logo">УмныйКосмос</a>
+                <a href="#" class="header__logo">УмныйПоиск</a>
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -49,9 +62,91 @@
                 </nav>
             </div>
         </header>
-        <main class="page">page</main>
-        <footer class="footer">footer</footer>
+
+        <main class="page">
+
+            <!-- page__main -->
+            <section class="page__main main-block">
+                <div class="main-block__container">
+                    <div class="main-block__body body-main-block">
+                        <div class="body-main-block__content content-main-block">
+                            <div class="content-main-block__body">
+                                <div class="content-main-block__sub-title">ЖИЛЫЕ И ОФИСНЫЕ ПОМЕЩЕНИЯ</div>
+                                <h1 class="content-main-block__title">Умный Поиск Жилья
+                                    Доступен Каждому</h1>
+                                <div class="content-main-block__text">Аренда нежилых помещений и офисов в Гомеле и
+                                    Гомельской области. Аренда коммерческой недвижимости.</div>
+                            </div>
+                            <form class="content-main-block__form form-main-block" action="#">
+                                <input placeholder="Введите почтовый индекс для поиска " type="text"
+                                    class="form-main-block__input">
+                                <button type="submit" class="form-main-block__button">Ищи сейчас!</button>
+                            </form>
+                        </div>
+
+                        <!-- Slider main container -->
+                        <div class="body-main-block__slider slider-main-block swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="slider-main-block__wrapper swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="slider-main-block__slide swiper-slide">
+                                    <img src="./assets/img/main/slider/01.jpg" alt="slider">
+                                </div>
+
+                                <div class="slider-main-block__slide swiper-slide">
+                                    <img src="./assets/img/main/slider/01.jpg" alt="slider">
+                                </div>
+
+                                <div class="slider-main-block__slide swiper-slide">
+                                    <img src="./assets/img/main/slider/01.jpg" alt="slider">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="body-main-block__arrows">
+                            <div class="body-main-block__arrow swiper-button-prev"></div>
+                            <div class="body-main-block__arrow swiper-button-next"></div>
+                        </div>
+
+                    </div>
+                    <div class="main-block__partners partners-main-block">
+                        <div class="partners-main-block__label">Наши Партнеры</div>
+                        <div class="partners-main-block__items">
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/01.svg" alt="parnters">
+                            </div>
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/02.svg" alt="parnters">
+                            </div>
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/03.svg" alt="parnters">
+                            </div>
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/04.svg" alt="parnters">
+                            </div>
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/05.svg" alt="parnters">
+                            </div>
+                            <div class="partners-main-block__item">
+                                <img src="./assets/img/main/parnters/06.svg" alt="parnters">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer"></footer>
     </div>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- js-->
+    <script src="./assets/js/script.js"></script>
+
 
 </body>
 
