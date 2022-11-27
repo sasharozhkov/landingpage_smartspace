@@ -978,14 +978,23 @@ body._touch .menu__link {
 }
 .footer__menu {
   display: flex;
-
   justify-content: flex-end;
+}
+.footer__copy-style {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  gap: 8px;
+  justify-content: center;
 }
 .footer__copy {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+}
+.footer__copy:hover {
+  text-decoration: underline;
 }
 .mebu-footer {
 }

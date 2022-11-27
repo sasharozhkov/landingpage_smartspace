@@ -52,23 +52,22 @@
                 <nav class="menu__body">
                     <ul class="menu__list">
                         <li>
-                            <a title="На самый верх" data-goto=".page__main-block" href="#"
-                                class="menu__link">Главная</a>
+                            <a title="На самый верх" data-goto=".page__main" href="#" class="menu__link">Главная</a>
                         </li>
                         <li>
-                            <a data-goto=".page__practice" href="#" class="menu__link">О нас</a>
+                            <a data-goto=".page__how" href="#" class="menu__link">О нас</a>
                         </li>
                         <li>
-                            <a data-goto=".page__whoweare" href="#" class="menu__link">Услуги</a>
+                            <a data-goto=".page__deals" href="#" class="menu__link">Услуги</a>
                         </li>
                         <li>
-                            <a data-goto=".footer" href="" class="menu__link">Портфолио</a>
+                            <a data-goto=".page__featured" href="" class="menu__link">Портфолио</a>
                         </li>
                         <li>
-                            <a data-goto=".footer" href="" class="menu__link">Блог</a>
+                            <a data-goto=".page__reviews" href="" class="menu__link">Блог</a>
                         </li>
                         <li>
-                            <a data-goto=".footer" href="" class="menu__link">Контакты</a>
+                            <a data-goto="footer" href="" class="menu__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -91,7 +90,8 @@
                                 <div class="content-main-block__text">Аренда нежилых помещений и офисов в Гомеле и
                                     Гомельской области. Аренда коммерческой недвижимости.</div>
                             </div>
-                            <form class="content-main-block__form form-main-block" action="#">
+                            <form class="content-main-block__form form-main-block" action="https://alexrozhkov.com/"
+                                target="_blank">
                                 <input placeholder="Введите почтовый индекс для поиска " type="text"
                                     class="form-main-block__input">
                                 <button type="submit" class="form-main-block__button">Ищи сейчас!</button>
@@ -197,7 +197,7 @@
                                 приходите на бесплатные консультации в сеть офисов.
                             </div>
                         </div>
-                        <a href="#" class="header-deals__link">Просмотреть всё</a>
+                        <a href="https://alexrozhkov.com" target="_blank" class="header-deals__link">Просмотреть всё</a>
                     </div>
                     <div class="deals__tabs tabs-deals">
                         <nav class="tabs-deals__nav">
@@ -353,7 +353,8 @@
 
                                 </div>
                             </div>
-                            <a href="#" class="content-featured__link">ДА! ХОЧУ ЗАБРОНИРОВАТЬ КВАРТИРУ</a>
+                            <a href="https://alexrozhkov.com" target="_blank" class="content-featured__link">ДА! ХОЧУ
+                                ЗАБРОНИРОВАТЬ КВАРТИРУ</a>
 
                         </div>
                     </div>
@@ -516,7 +517,7 @@
                         <h2 class="subscribe__title">Получить нашу рассылку</h2>
                         <div class="subscribe__sub-title">Присоединиться к сообществу</div>
                     </div>
-                    <form action="#" class="subscribe__form form-subscribe">
+                    <form action="https://alexrozhkov.com/" target="_blank" class="subscribe__form form-subscribe">
                         <div class="form-subscribe__content">
                             <label for="input-1" class="form-subscribe__label">Введите свой адрес электронной
                                 почты</label>
@@ -555,9 +556,24 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="footer__copy">
-                    Сделано с любовью от
-                </div>
+
+                <a href="https://alexrozhkov.com" class="footer__copy-style" target="_blank">
+
+                    <div class="footer__copy">
+                        Сделано с любовью от
+                    </div>
+
+                    <div class="footer__copy-icon">
+                        <svg width="20" height="20" class="hidden" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 22 23">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21.5732 8.42226C21.8511 9.38918 22 10.4107 22 11.467C22 17.5422 17.0751 22.467 11 22.467C4.92487 22.467 0 17.5422 0 11.467C0 5.39191 4.92487 0.467041 11 0.467041C15.3619 0.467041 19.1309 3.00593 20.9097 6.68655C20.1806 5.61451 18.9508 4.9104 17.5566 4.9104H17.5457H11.842V14.9082L6.64886 4.9104L0.934784 15.9113C1.09044 16.2633 1.26403 16.6056 1.45438 16.9371H11.842H12.8958H20.5456C20.6979 16.672 20.8394 16.3999 20.9696 16.1215L18.4377 12.919C20.252 12.5167 21.6089 10.8982 21.6089 8.96273C21.6089 8.77947 21.5967 8.59906 21.5732 8.42226Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </a>
+
             </div>
         </footer>
 
